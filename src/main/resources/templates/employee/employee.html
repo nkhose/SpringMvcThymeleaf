@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employee List</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+ 
+<body>
+<div class="container">
+	<h1>Employee Table</h1>
+	<div>
+		<table id="employeeTable">
+			<thead>
+				<tr>
+					<th>Employee ID</th>
+					<th>Name</th>
+					<th>Address</th>
+				</tr>
+			</thead>
+			<tbody>
+				 <tr th:each="employ, rowStat: ${employee}">
+			        <td th:text="${employ.id}">1</td>
+					<td th:text="${employ.name}">Jack</td>
+			        <td th:text="${employ.address}">23</td>
+			    </tr>
+			</tbody>
+		</table>
+	</div>
+</div>
