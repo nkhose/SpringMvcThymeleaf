@@ -6,9 +6,9 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.8.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pritam</groupId>
+	<groupId>com.nikita</groupId>
 	<artifactId>SpringMvcThymeleaf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringMvcThymeleaf</name>
@@ -22,6 +22,16 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ognl</groupId>
+			<artifactId>ognl</artifactId>
+			<version>3.1.12</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.fmcarvalho</groupId>
+			<artifactId>htmlflow</artifactId>
+			<version>1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
